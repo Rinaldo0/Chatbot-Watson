@@ -1,0 +1,20 @@
+{
+  "name": "chatbot9876",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+"dependencies": {
+  "express": "^4.16.3",
+  "body-parser": "^1.18.2",
+  "request": "2.72.0",
+  "htmlparser": "1.7.7",
+  "watson-developer-cloud": "2.42.0"
+},
+"repository": {},
+"engines": {
+  "node": "6.x"
+}
+}

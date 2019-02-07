@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Simple Chat - Watson</title>
+
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" type="text/css" href="stylebot.css">
+  <link href="https://fonts.googleapis.com/css?family=Hind" rel="stylesheet">
+  <link rel="stylesheet" href="./css/font-awesome.min.css">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="chat">
+    <div class="chat-column" style="display: none;">
+      <div class="head">
+        <div class="container">
+          <div class="avatar">
+            <img src="image.png" alt="">
+          </div>
+          <div class="content">
+            Avatar
+            <div class="grupo">
+              <i class="fa fa-medkit medico" style="display: none;" aria-hidden="true"></i>
+              <i class="fa fa-circle hora" style="display: none;" aria-hidden="true"></i>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div id="chat"></div>
+
+      <div class="chat-form">
+
+          <input id="textInput" class="input responsive-column" autofocus placeholder="Digite algo..." type="text">
+          <div class=""></div>
+
+      </div>
+
+    </div>
+  </div>
+    <div class="chat-button">
+        <div class="msg"></div>
+    </div>
+  <script src="./script.js"></script>
+  <script src="jquery.js"> </script>
+</body>
+
+</html>
